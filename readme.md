@@ -8,7 +8,7 @@ Distributed Hash Table (DHT):
 ## Basic DHT Components
 1. An abstract keyspace
 2. A key space paritioning scheme
-3. Overlay network to connect nodes
+3. Overlay network to connect nodes (Use Apache Thrift RPC[1] to do this)
 
 
 
@@ -16,3 +16,4 @@ Distributed Hash Table (DHT):
 Sources:
 
 [0] https://en.wikipedia.org/wiki/Distributed_hash_table 
+[1] https://thrift.apache.org/
